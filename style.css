@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#green{
+    color: rgb(83, 225, 83);
+}
+
+.green{
+    color: rgb(83, 225, 83);
+}
+#nav{
+    background-color: black;
+}
+
+hr{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right1 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 2s;
+}
+
+.fade-right1.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right2 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 3s;
+}
+
+.fade-right2.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right3 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 4s;
+}
+
+.fade-right3.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right4 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 5s;
+}
+
+.fade-right4.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right5 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s, transform 6s;
+}
+
+.fade-right5.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 1s, transform 3s;
+}
+
+.fade-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-left1 {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 1s, transform 4s;
+}
+
+.fade-left1.active {
+  opacity: 1;
+  transform: translateX(0);
+}
