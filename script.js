@@ -56,3 +56,24 @@ document.addEventListener("DOMContentLoaded", function()
     });
 
   });
+
+
+
+let names = ["UX Developer", "UI Developer", "UX & UI Designer"];
+let currentIndex = 0;
+  function changeName() 
+{
+     let currentName = names[currentIndex];
+     let displayElement = document.getElementById("changeText");
+     displayElement.innerHTML = ""; 
+       for (let i = 0; i < currentName.length; i++) 
+       {
+            setTimeout(() => 
+            {
+              displayElement.innerHTML += currentName[i];
+            }, i * 30); 
+       }
+     currentIndex = (currentIndex + 1) % names.length;
+}
+setInterval(changeName, 3000);
+changeName();
